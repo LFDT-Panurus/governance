@@ -1,0 +1,31 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+      - jwagantall
+    members:
+      - thelinuxfoundation
+  - name: panurus-maintainers
+    maintainers:
+      - adecaro
+    members:
+      - AkramBitar
+      - arner
+      - KElkhiyaoui
+
+repositories:
+  - name: governance
+    teams:
+      lf-staff: maintain
+      panurus-maintainers: maintain
+    visibility: public
+  - name: TSC
+    teams:
+      lf-staff: maintain
+      panurus-maintainers: maintain
+    visibility: public
+  - name: .github
+    teams:
+      lf-staff: maintain
+      panurus-maintainers: maintain
+    visibility: public
