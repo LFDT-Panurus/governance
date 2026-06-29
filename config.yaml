@@ -9,13 +9,31 @@ teams:
     maintainers:
       - adecaro
     members:
+      - aaadir
       - AkramBitar
+      - ale-linux
       - alexandrosfilios
       - arner
+      - barvhaim
+      - drucker-nir
+      - Effi-S
+      - HayimShaul
       - KElkhiyaoui
+      - kushnireyal
+      - mbrandenburger
+      - nitsatiisc
+      - omri-so
+      - SaidAltury-ibm
+      - sreenidhidrIBM
+      - yacovm
 
 repositories:
   - name: governance
+    teams:
+      lf-staff: maintain
+      panurus-maintainers: maintain
+    visibility: public
+  - name: panurus
     teams:
       lf-staff: maintain
       panurus-maintainers: maintain
