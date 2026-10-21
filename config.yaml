@@ -1,8 +1,8 @@
 teams:
   - name: lf-staff
     maintainers:
-      - ryjones
       - jwagantall
+      - ryjones
     members:
       - thelinuxfoundation
   - name: panurus-maintainers
@@ -26,25 +26,34 @@ teams:
       - SaidAltury-ibm
       - sreenidhidrIBM
       - yacovm
-
+  - name: security-managers
+    maintainers:
+      - ryjones
+    members:
+      - adecaro
+      - arner
 repositories:
+  - name: .github
+    teams:
+      lf-staff: maintain
+      panurus-maintainers: maintain
+      security-managers: read
+    visibility: public
   - name: governance
     teams:
       lf-staff: maintain
       panurus-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: panurus
     teams:
       lf-staff: maintain
       panurus-maintainers: maintain
+      security-managers: read
     visibility: public
   - name: TSC
     teams:
       lf-staff: maintain
       panurus-maintainers: maintain
-    visibility: public
-  - name: .github
-    teams:
-      lf-staff: maintain
-      panurus-maintainers: maintain
+      security-managers: read
     visibility: public
