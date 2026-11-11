@@ -9,23 +9,11 @@ teams:
     maintainers:
       - adecaro
     members:
-      - aaadir
       - AkramBitar
-      - ale-linux
       - alexandrosfilios
       - arner
-      - barvhaim
-      - drucker-nir
       - Effi-S
-      - HayimShaul
       - KElkhiyaoui
-      - kushnireyal
-      - mbrandenburger
-      - nitsatiisc
-      - omri-so
-      - SaidAltury-ibm
-      - sreenidhidrIBM
-      - yacovm
   - name: security-managers
     maintainers:
       - ryjones
